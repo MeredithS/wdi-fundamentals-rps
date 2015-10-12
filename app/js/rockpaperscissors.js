@@ -70,7 +70,7 @@ while (playerWins <=5 || computerWins<=5){
     }
     else ties +=1;
 }
-    console.log('Player chose ' + playerMove + ' while Computer chose ' + computerMove);
-    console.log('The score is currently player: ' + playerWins + ' to computer:' + computerWins + ' to ties: '+ ties);
+console.log('Player chose ' + playerMove + ' while Computer chose ' + computerMove);
+console.log('The score is currently player: ' + playerWins + ' to computer:' + computerWins + ' to ties: '+ ties);
 }
 
